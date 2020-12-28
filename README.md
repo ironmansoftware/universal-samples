@@ -1,6 +1,6 @@
-# Ironman Software Samples
+# PowerShell Universal Samples
 
-This repository contains samples for Ironman Software products. 
+This repository contains samples for PowerShell Universal.
 
 # Licensing
 
@@ -18,11 +18,8 @@ Single file samples should be stored within the correct folder as a `.ps1` file.
 <#
 title: A title for your sample
 description: A description of your sample
-author: Your GitHub account 
-tags: an,array,of,tags
-parameters: an,array,of,parameters
-data: 
-    - AdditionalData: ToInclude
+file: Includes the file to update. 
+version: The minium version number of Universal required for this sample
 #>
 ```
 
@@ -32,10 +29,9 @@ The rest of your sample can just be PowerShell.
 <#
 title: A basic endpoint
 description: A cool endpoint that does stuff.
-author: adamdriscoll
-tags: universal,api
-data: 
-    - PowerShellUniversal: '^1.5.0'
+file: endpoints.ps1
+version: 1.5.0
+file: 
 #>
 New-PSUEndpoint -Method GET -Url /get -Endpoint {
     "Hello, world"

@@ -1,0 +1,1 @@
+New-PSUDashboard -Name 'Convert' -BaseUrl '/' -Framework 'UniversalDashboard:Latest' -FilePath "dashboard.ps1"

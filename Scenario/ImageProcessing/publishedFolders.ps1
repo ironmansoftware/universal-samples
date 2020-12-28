@@ -1,0 +1,1 @@
+New-PSUPublishedFolder -Path 'C:\images' -RequestPath '/images'
