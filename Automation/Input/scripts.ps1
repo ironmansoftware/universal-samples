@@ -1,0 +1,1 @@
+New-PSUScript -Name 'Input' -Path "universal/Input.ps1"
