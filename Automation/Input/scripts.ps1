@@ -1,1 +1,5 @@
-New-PSUScript -Name 'Input' -Path "universal/Input.ps1"
+New-PSUScript -Name 'Input' -ScriptBlock {
+    param($Name)
+
+    $Name
+}
