@@ -10,6 +10,10 @@ Samples are licensed under MIT.
 
 We accept pull requests to this repository. 
 
+## PowerShell Universal Extension
+
+Samples that are added to the repository will automatically show up in the [PowerShell Universal VS Code extension](https://marketplace.visualstudio.com/items?itemName=ironmansoftware.powershell-universal). 
+
 ## Single File Samples
 
 Single file samples should be stored within the correct folder as a `.ps1` file. You should include a comment at the top within information about your sample. It should at least contain the `title`, `description`, `version`, and `file`. The comment should be in YAML syntax. 
