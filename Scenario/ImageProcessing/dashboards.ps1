@@ -1,1 +1,1 @@
-New-PSUDashboard -Name 'Convert' -BaseUrl '/' -Framework 'UniversalDashboard:Latest' -FilePath "dashboard.ps1"
+New-PSUDashboard -Name 'Convert' -BaseUrl '/' -Framework 'UniversalDashboard:Latest' -FilePath ".universal/dashboard.ps1"
